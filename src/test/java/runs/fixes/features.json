@@ -1,0 +1,5 @@
+[
+    "classpath:resources/apis/fixes/repair-tips-by-vin.feature",
+    "classpath:resources/apis/fixes/update-part-pricing.feature",
+    "classpath:resources/apis/fixes/makes-by-make-and-part-number.feature"
+]

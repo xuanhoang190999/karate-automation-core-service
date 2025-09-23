@@ -1,0 +1,4 @@
+[
+    "classpath:resources/apis/tsbs/tsbs.feature",
+    "classpath:resources/apis/tsbs/tsbs-category.feature"
+]

@@ -1,0 +1,394 @@
+{
+    "expected_VIN_1GT2": [
+        {
+            "ErrorCode": "C0221",
+            "ErrorCodeSystemType": 2,
+            "ErrorCodeSystemTypeText": "ABS",
+            "FixId": "c2612670-1969-4aba-9b91-a1ab3ee2f773",
+            "FixNameId": "b0777f9c-5e10-4d0c-b003-01e1424209a0",
+            "Name": "Replace Wheel Speed Sensor(s)",
+            "ProName": "Wheel Speed Sensor(s)",
+            "AdditionalInformation": "",
+            "LaborHours": 0.80,
+            "LaborRate": 146.58000,
+            "LaborCost": 117.26400,
+            "PartsCost": 44.00000,
+            "AdditionalCost": 25.00000,
+            "TotalCost": 186.26400,
+            "FixRating": 2,
+            "FrequencyCount": 2,
+            "FixParts": [
+                {
+                    "ACESPartTypeID": 1992,
+                    "Quantity": 1,
+                    "Name": "ABS Wheel Speed Sensor",
+                    "MakesList": "AMERICAN GENERAL|BUICK|CADILLAC|CHEVROLET|GEO|GMC|HUMMER|OLDSMOBILE|PONTIAC|SAAB|SATURN",
+                    "PartNumber": "84356644",
+                    "Price": 44.00000,
+                    "CodemasterID": "6179",
+                    "FixPartOemInfos": []
+                }
+            ],
+            "RepairTipInfo": null
+        },
+        {
+            "ErrorCode": "C0222",
+            "ErrorCodeSystemType": 2,
+            "ErrorCodeSystemTypeText": "ABS",
+            "FixId": "2ce20375-ed4d-48a8-aaa8-13966ff4b286",
+            "FixNameId": "fac171c9-e39e-46ac-99f2-26544e7c8ab8",
+            "Name": "Replace ABS Wheel Speed Sensor",
+            "ProName": "ABS Wheel Speed Sensor",
+            "AdditionalInformation": "",
+            "LaborHours": 0.80,
+            "LaborRate": 146.58000,
+            "LaborCost": 117.26400,
+            "PartsCost": 44.00000,
+            "AdditionalCost": 25.00000,
+            "TotalCost": 186.26400,
+            "FixRating": 2,
+            "FrequencyCount": 1,
+            "FixParts": [
+                {
+                    "ACESPartTypeID": 1992,
+                    "Quantity": 1,
+                    "Name": "ABS Wheel Speed Sensor",
+                    "MakesList": "AMERICAN GENERAL|BUICK|CADILLAC|CHEVROLET|GEO|GMC|HUMMER|OLDSMOBILE|PONTIAC|SAAB|SATURN",
+                    "PartNumber": "84356644",
+                    "Price": 44.00000,
+                    "CodemasterID": "6179",
+                    "FixPartOemInfos": []
+                }
+            ],
+            "RepairTipInfo": null
+        },
+        {
+            "ErrorCode": "C0236",
+            "ErrorCodeSystemType": 2,
+            "ErrorCodeSystemTypeText": "ABS",
+            "FixId": "8499c603-a991-42b8-a93c-36f56539ccbd",
+            "FixNameId": "169e9589-7a3e-4cfd-85e4-eaa26bf813bf",
+            "Name": "Replace Vehicle Speed Sensor (VSS)",
+            "ProName": "Vehicle Speed Sensor (VSS)",
+            "AdditionalInformation": "Left Rear Wheel Speed Sensor Signal",
+            "LaborHours": 1.00,
+            "LaborRate": 146.58000,
+            "LaborCost": 146.58000,
+            "PartsCost": 30.82000,
+            "AdditionalCost": 25.00000,
+            "TotalCost": 202.40000,
+            "FixRating": 2,
+            "FrequencyCount": 4,
+            "FixParts": [
+                {
+                    "ACESPartTypeID": 10634,
+                    "Quantity": 1,
+                    "Name": "Vehicle Speed Sensor",
+                    "MakesList": "AMERICAN GENERAL|BUICK|CADILLAC|CHEVROLET|GEO|GMC|HUMMER|OLDSMOBILE|PONTIAC|SAAB|SATURN",
+                    "PartNumber": "24203876",
+                    "Price": 30.82000,
+                    "CodemasterID": "",
+                    "FixPartOemInfos": []
+                }
+            ],
+            "RepairTipInfo": null
+        },
+        {
+            "ErrorCode": "C0246",
+            "ErrorCodeSystemType": 2,
+            "ErrorCodeSystemTypeText": "ABS",
+            "FixId": "11fba84d-d233-4b75-ab45-b4f06cb494d0",
+            "FixNameId": "e918d509-622b-4a0e-8000-d3e1ba377cf0",
+            "Name": "Repair Ground for Electronic Brake Control Module (EBCM)",
+            "ProName": "Ground for Electronic Brake Control Module (EBCM)",
+            "AdditionalInformation": "Bulletin No.: 04-05-25-002E",
+            "LaborHours": 1.00,
+            "LaborRate": 146.58000,
+            "LaborCost": 146.58000,
+            "PartsCost": 0.00000,
+            "AdditionalCost": 25.00000,
+            "TotalCost": 171.58000,
+            "FixRating": 2,
+            "FrequencyCount": 1,
+            "FixParts": [],
+            "RepairTipInfo": null
+        },
+        {
+            "ErrorCode": "P0300",
+            "ErrorCodeSystemType": 0,
+            "ErrorCodeSystemTypeText": "OBDII",
+            "FixId": "d8caa79b-603b-4d03-ad2a-35ffc1f93d5f",
+            "FixNameId": "84c5f27a-7ecc-46af-9a39-9364be9c2584",
+            "Name": "Replace Electronic Engine Control (EEC) Fuse",
+            "ProName": "Electronic Engine Control (EEC) Fuse",
+            "AdditionalInformation": "FUSE F46UA IN UNDERHOOD FUSE BLOCK",
+            "LaborHours": 0.50,
+            "LaborRate": 146.58000,
+            "LaborCost": 73.29000,
+            "PartsCost": 0.00000,
+            "AdditionalCost": 25.00000,
+            "TotalCost": 98.29000,
+            "FixRating": 1,
+            "FrequencyCount": 1,
+            "FixParts": [],
+            "RepairTipInfo": {
+                "FixName": "Replace Electronic Engine Control (EEC) Fuse",
+                "InitialInspection": "During your initial inspection, check for torn inlet boots, missing/broken vacuum tees, and disconnected wire harnesses. Check that Ignition Coil wire(s) fit tightly on Spark Plugs and coil(s) fit properly into the valve cover, cylinder head, and Spark Plug(s). Ensure Ignition Coil harness connector(s) properly fit into connector/holders to prevent issues. With the engine idling, you may try spraying a fine mist of water across the wires and coil, looking for arcing and, or RPM change. Refer to the Vehicle Emissions Warranty Manual for time and mileage coverage for the emissions-related fault(s). For additional information, refer to the Service Manual or applicable Technical Service Bulletin (TSB).",
+                "PossibleCause": "- Faulty Ignition Coils or Spark Plug\n- Faulty Fuel Injector",
+                "DiagnosticProcedure": "1. Inspect the Ignition Coil and Spark Plug\na. Turn the ignition to the OFF position. Disconnect the ignition coil connectors and turn the ignition to Key ON Engine OFF (KOEO) position. Using a Digital Multimeter (DMM), measure the voltage between Pin 4 (Violet/Blue) and the body ground. Voltage should be the Battery Voltage.\n   - If the voltage is out of specification, repair the wiring between the ignition coils and fuse F44UA (Bank 1) or F45UA (Bank 2). Perform Repair Validation.\n   - If the voltage is within specification, go to Step 1b.\nb. Remove the ignition coil(s) from the cylinder(s) identified by the Diagnostic Trouble Code (DTC). Move the ignition coil to another cylinder. Perform Repair Validation.\n   - If a DTC is set for the cylinder where the ignition coil was moved, replace the ignition coil(s). Perform Repair Validation.\n   - If the same DTC is set, go to Step 1c.\nc. Remove the spark plug and inspect it. The spark gap should be 0.95–1.10 mm (0.037–0.043 in). Perform a quick compression check to determine if the compression is the root cause. Then, follow the appropriate diagnostic procedure and repair as specified. If compression, spark plug, and gap are good, move the spark plug to another cylinder. Perform Repair Validation.\n   - If a DTC is set for the cylinder where the spark plug was moved, replace the spark plug. Perform Repair Validation.\n   - If the same DTC is set, go to Step 2.\n2. Inspect the Fuel Injector\na. Disconnect the fuel injector connector. Using a DMM, measure the fuel injector resistance. The resistance should be 0.954–1.166 Ohms at 20°C (68°F)\n   - If the resistance is out of specification, replace the fuel injector. Perform Repair Validation.\n   - If the resistance is within specification, go to Step 2b.\nb. Using a mechanical ear (stethoscope), listen for the fuel injector clicking.\n   - If the fuel injector is not clicking, replace the fuel injector. Perform Repair Validation.\n   - If the fuel injector is clicking, inspect for a vacuum leak. If none are found, go to Step 2c.\nc. No fault is present. Perform Repair Validation. If the DTC sets, go to Step 2.",
+                "RepairValidation": "1. Clear DTC(s) and Freeze Frame (FF) information.\n2. Perform the KOEO and Key ON Engine Running (KOER) tests or follow the On–Board Diagnostics (OBD2) drive cycle requirements for the fault area.\n3. An optional method to validate the repair would be to operate the vehicle within the conditions recorded in the FF data.\n4. Check for pending or stored DTC. If none is found, the repair is complete."
+            }
+        },
+        {
+            "ErrorCode": "P0301",
+            "ErrorCodeSystemType": 0,
+            "ErrorCodeSystemTypeText": "OBDII",
+            "FixId": "e85f7372-8799-42d8-90ba-27c100ed9c8b",
+            "FixNameId": "d78d29af-a297-4ee6-882b-26ab3c1232e9",
+            "Name": "Replace Fuel Injector(s)",
+            "ProName": "Fuel Injector(s)",
+            "AdditionalInformation": "Test for compression and ignition concerns. Flow test fuel injectors.\nNOTE: COULD ALSO BE DUE TO ICING AND EXTREME COLD",
+            "LaborHours": 1.40,
+            "LaborRate": 146.58000,
+            "LaborCost": 205.21200,
+            "PartsCost": 70.86000,
+            "AdditionalCost": 25.00000,
+            "TotalCost": 301.07200,
+            "FixRating": 3,
+            "FrequencyCount": 1,
+            "FixParts": [
+                {
+                    "ACESPartTypeID": 6224,
+                    "Quantity": 1,
+                    "Name": "Fuel Injector",
+                    "MakesList": "AMERICAN GENERAL|BUICK|CADILLAC|CHEVROLET|GEO|GMC|HUMMER|OLDSMOBILE|PONTIAC|SAAB|SATURN",
+                    "PartNumber": "12613412",
+                    "Price": 70.86000,
+                    "CodemasterID": "1854",
+                    "FixPartOemInfos": []
+                }
+            ],
+            "RepairTipInfo": {
+                "FixName": "Replace Fuel Injector(s)",
+                "InitialInspection": "During your initial inspection, check for torn inlet boots, missing/broken vacuum tees, and disconnected wire harnesses. Check that Ignition Coil wire(s) fit tightly on Spark Plugs and coil(s) fit properly into the valve cover, cylinder head, and Spark Plug(s). Ensure Ignition Coil harness connector(s) properly fit into connector/holders to prevent issues. With the engine idling, you may spray a fine mist of water across the wires and coil, looking for arcing and, or RPM change. Refer to the Vehicle Emissions Warranty Manual for time and mileage coverage for the emissions-related fault(s). For additional information, refer to the Service Manual or applicable Technical Service Bulletin (TSB) “19-NA-219/19-NA-232 prior to continuing to diagnose this Diagnostic Trouble Code (DTC)”.",
+                "PossibleCause": "- Faulty Ignition Coils or Spark Plug\n- Faulty Fuel Injector",
+                "DiagnosticProcedure": "1. Inspect the Ignition Coil and Spark Plug\na. Turn the ignition to the OFF position. Disconnect the ignition coil connectors and turn the ignition to the Key ON Engine OFF (KOEO) position. Using a Digital Multimeter (DMM), measure the voltage between Pin 4 (Violet/Blue) and the body ground. Voltage should be the battery voltage.\n   - If the voltage is out of specification, repair the wiring between the ignition coils and fuse F44UA. Perform Repair Validation.\n   - If the voltage is within specification, go to Step 1b.\nb. Remove the ignition coil(s) from the cylinder(s) identified by the Diagnostic Trouble Code (DTC). Move the ignition coil to another cylinder. Perform Repair Validation.\n   - If a DTC is set for the cylinder where the ignition coil was moved, replace the ignition coil(s). Perform Repair Validation.\n   - If the same DTC is set, go to Step 1c.\nc. Remove the spark plug and inspect it. The spark gap should be 0.95–1.10 mm (0.037–0.043in). Perform a quick compression check to determine if the compression is the root cause. Then, follow the appropriate diagnostic procedure and repair as specified. If compression, spark plug, and gap are good, move the spark plug to another cylinder. Perform Repair Validation.\n   - If a DTC is set for the cylinder where the spark plug was moved, replace the spark plug. Perform Repair Validation.\n   - If the same DTC is set, go to Step 2.\n2. Inspect the Fuel Injector\na. Disconnect the fuel injector connector. Using a DMM, measure the fuel injector resistance. The resistance should be 0.954–1.166 Ohms at 68°F (20°C).\n   - If the resistance is out of specification, replace the fuel injector. Perform Repair Validation.\n   - If the resistance is within specification, go to Step 2b.\nb. Using a mechanical ear (stethoscope), listen for the fuel injector clicking.\n   - If the fuel injector is not clicking, replace the fuel injector. Perform Repair Validation.\n   - If the fuel injector is clicking, inspect for a vacuum leak. If none are found, go to Step 2c.\nc. No fault is present. Perform Repair Validation. If the DTC sets, go to Step 2.",
+                "RepairValidation": "1. Clear DTC(s) and Freeze Frame (FF) information.\n2. Perform the KOEO and Key ON Engine Running (KOER) tests or follow the On–Board Diagnostics (OBD2) drive cycle requirements for the fault area.\n3. An optional method to validate the repair would be to operate the vehicle within the conditions recorded in the FF data.\n4. Check for pending or stored DTC. If none is found, the repair is complete."
+            }
+        },
+        {
+            "ErrorCode": "P0307",
+            "ErrorCodeSystemType": 0,
+            "ErrorCodeSystemTypeText": "OBDII",
+            "FixId": "6dde1ec4-6e3c-4879-9c98-e833203de69a",
+            "FixNameId": "f077412f-2b36-4f64-a247-19a0b02c6f7a",
+            "Name": "Replace Ignition Coil(s) , Spark Plug(s) and Spark Plug Wire(s)",
+            "ProName": "Ignition Coil(s) , Spark Plug(s) and Spark Plug Wire(s)",
+            "AdditionalInformation": "Inspect for loose plug wires causing carbon tracking.",
+            "LaborHours": 2.70,
+            "LaborRate": 146.58000,
+            "LaborCost": 395.76600,
+            "PartsCost": 410.78000,
+            "AdditionalCost": 25.00000,
+            "TotalCost": 831.54600,
+            "FixRating": 2,
+            "FrequencyCount": 3,
+            "FixParts": [
+                {
+                    "ACESPartTypeID": 7228,
+                    "Quantity": 1,
+                    "Name": "Spark Plug Wire Set",
+                    "MakesList": "AMERICAN GENERAL|BUICK|CADILLAC|CHEVROLET|GEO|GM EV1|GMC|HUMMER|OLDSMOBILE|PONTIAC|SAAB|SATURN",
+                    "PartNumber": "19301299",
+                    "Price": 111.74000,
+                    "CodemasterID": "739",
+                    "FixPartOemInfos": []
+                },
+                {
+                    "ACESPartTypeID": 7060,
+                    "Quantity": 1,
+                    "Name": "Ignition Coil",
+                    "MakesList": "CADILLAC|CHEVROLET|GMC",
+                    "PartNumber": "12699383",
+                    "Price": 160.00000,
+                    "CodemasterID": "724",
+                    "FixPartOemInfos": []
+                },
+                {
+                    "ACESPartTypeID": 7212,
+                    "Quantity": 8,
+                    "Name": "Spark Plug",
+                    "MakesList": "AMERICAN GENERAL|BUICK|CADILLAC|CHEVROLET|GEO|GMC|HUMMER|OLDSMOBILE|PONTIAC|SAAB|SATURN",
+                    "PartNumber": "12622441",
+                    "Price": 17.38000,
+                    "CodemasterID": "735",
+                    "FixPartOemInfos": []
+                }
+            ],
+            "RepairTipInfo": null
+        },
+        {
+            "ErrorCode": "P0300",
+            "ErrorCodeSystemType": 2,
+            "ErrorCodeSystemTypeText": "ABS",
+            "FixId": "d8caa79b-603b-4d03-ad2a-35ffc1f93d5f",
+            "FixNameId": "84c5f27a-7ecc-46af-9a39-9364be9c2584",
+            "Name": "Replace Electronic Engine Control (EEC) Fuse",
+            "ProName": "Electronic Engine Control (EEC) Fuse",
+            "AdditionalInformation": "FUSE F46UA IN UNDERHOOD FUSE BLOCK",
+            "LaborHours": 0.50,
+            "LaborRate": 146.58000,
+            "LaborCost": 73.29000,
+            "PartsCost": 0.00000,
+            "AdditionalCost": 25.00000,
+            "TotalCost": 98.29000,
+            "FixRating": 1,
+            "FrequencyCount": 1,
+            "FixParts": [],
+            "RepairTipInfo": {
+                "FixName": "Replace Electronic Engine Control (EEC) Fuse",
+                "InitialInspection": "During your initial inspection, check for torn inlet boots, missing/broken vacuum tees, and disconnected wire harnesses. Check that Ignition Coil wire(s) fit tightly on Spark Plugs and coil(s) fit properly into the valve cover, cylinder head, and Spark Plug(s). Ensure Ignition Coil harness connector(s) properly fit into connector/holders to prevent issues. With the engine idling, you may try spraying a fine mist of water across the wires and coil, looking for arcing and, or RPM change. Refer to the Vehicle Emissions Warranty Manual for time and mileage coverage for the emissions-related fault(s). For additional information, refer to the Service Manual or applicable Technical Service Bulletin (TSB).",
+                "PossibleCause": "- Faulty Ignition Coils or Spark Plug\n- Faulty Fuel Injector",
+                "DiagnosticProcedure": "1. Inspect the Ignition Coil and Spark Plug\na. Turn the ignition to the OFF position. Disconnect the ignition coil connectors and turn the ignition to Key ON Engine OFF (KOEO) position. Using a Digital Multimeter (DMM), measure the voltage between Pin 4 (Violet/Blue) and the body ground. Voltage should be the Battery Voltage.\n   - If the voltage is out of specification, repair the wiring between the ignition coils and fuse F44UA (Bank 1) or F45UA (Bank 2). Perform Repair Validation.\n   - If the voltage is within specification, go to Step 1b.\nb. Remove the ignition coil(s) from the cylinder(s) identified by the Diagnostic Trouble Code (DTC). Move the ignition coil to another cylinder. Perform Repair Validation.\n   - If a DTC is set for the cylinder where the ignition coil was moved, replace the ignition coil(s). Perform Repair Validation.\n   - If the same DTC is set, go to Step 1c.\nc. Remove the spark plug and inspect it. The spark gap should be 0.95–1.10 mm (0.037–0.043 in). Perform a quick compression check to determine if the compression is the root cause. Then, follow the appropriate diagnostic procedure and repair as specified. If compression, spark plug, and gap are good, move the spark plug to another cylinder. Perform Repair Validation.\n   - If a DTC is set for the cylinder where the spark plug was moved, replace the spark plug. Perform Repair Validation.\n   - If the same DTC is set, go to Step 2.\n2. Inspect the Fuel Injector\na. Disconnect the fuel injector connector. Using a DMM, measure the fuel injector resistance. The resistance should be 0.954–1.166 Ohms at 20°C (68°F)\n   - If the resistance is out of specification, replace the fuel injector. Perform Repair Validation.\n   - If the resistance is within specification, go to Step 2b.\nb. Using a mechanical ear (stethoscope), listen for the fuel injector clicking.\n   - If the fuel injector is not clicking, replace the fuel injector. Perform Repair Validation.\n   - If the fuel injector is clicking, inspect for a vacuum leak. If none are found, go to Step 2c.\nc. No fault is present. Perform Repair Validation. If the DTC sets, go to Step 2.",
+                "RepairValidation": "1. Clear DTC(s) and Freeze Frame (FF) information.\n2. Perform the KOEO and Key ON Engine Running (KOER) tests or follow the On–Board Diagnostics (OBD2) drive cycle requirements for the fault area.\n3. An optional method to validate the repair would be to operate the vehicle within the conditions recorded in the FF data.\n4. Check for pending or stored DTC. If none is found, the repair is complete."
+            }
+        },
+        {
+            "ErrorCode": "P0300",
+            "ErrorCodeSystemType": 3,
+            "ErrorCodeSystemTypeText": "SRS",
+            "FixId": "d8caa79b-603b-4d03-ad2a-35ffc1f93d5f",
+            "FixNameId": "84c5f27a-7ecc-46af-9a39-9364be9c2584",
+            "Name": "Replace Electronic Engine Control (EEC) Fuse",
+            "ProName": "Electronic Engine Control (EEC) Fuse",
+            "AdditionalInformation": "FUSE F46UA IN UNDERHOOD FUSE BLOCK",
+            "LaborHours": 0.50,
+            "LaborRate": 146.58000,
+            "LaborCost": 73.29000,
+            "PartsCost": 0.00000,
+            "AdditionalCost": 25.00000,
+            "TotalCost": 98.29000,
+            "FixRating": 1,
+            "FrequencyCount": 1,
+            "FixParts": [],
+            "RepairTipInfo": {
+                "FixName": "Replace Electronic Engine Control (EEC) Fuse",
+                "InitialInspection": "During your initial inspection, check for torn inlet boots, missing/broken vacuum tees, and disconnected wire harnesses. Check that Ignition Coil wire(s) fit tightly on Spark Plugs and coil(s) fit properly into the valve cover, cylinder head, and Spark Plug(s). Ensure Ignition Coil harness connector(s) properly fit into connector/holders to prevent issues. With the engine idling, you may try spraying a fine mist of water across the wires and coil, looking for arcing and, or RPM change. Refer to the Vehicle Emissions Warranty Manual for time and mileage coverage for the emissions-related fault(s). For additional information, refer to the Service Manual or applicable Technical Service Bulletin (TSB).",
+                "PossibleCause": "- Faulty Ignition Coils or Spark Plug\n- Faulty Fuel Injector",
+                "DiagnosticProcedure": "1. Inspect the Ignition Coil and Spark Plug\na. Turn the ignition to the OFF position. Disconnect the ignition coil connectors and turn the ignition to Key ON Engine OFF (KOEO) position. Using a Digital Multimeter (DMM), measure the voltage between Pin 4 (Violet/Blue) and the body ground. Voltage should be the Battery Voltage.\n   - If the voltage is out of specification, repair the wiring between the ignition coils and fuse F44UA (Bank 1) or F45UA (Bank 2). Perform Repair Validation.\n   - If the voltage is within specification, go to Step 1b.\nb. Remove the ignition coil(s) from the cylinder(s) identified by the Diagnostic Trouble Code (DTC). Move the ignition coil to another cylinder. Perform Repair Validation.\n   - If a DTC is set for the cylinder where the ignition coil was moved, replace the ignition coil(s). Perform Repair Validation.\n   - If the same DTC is set, go to Step 1c.\nc. Remove the spark plug and inspect it. The spark gap should be 0.95–1.10 mm (0.037–0.043 in). Perform a quick compression check to determine if the compression is the root cause. Then, follow the appropriate diagnostic procedure and repair as specified. If compression, spark plug, and gap are good, move the spark plug to another cylinder. Perform Repair Validation.\n   - If a DTC is set for the cylinder where the spark plug was moved, replace the spark plug. Perform Repair Validation.\n   - If the same DTC is set, go to Step 2.\n2. Inspect the Fuel Injector\na. Disconnect the fuel injector connector. Using a DMM, measure the fuel injector resistance. The resistance should be 0.954–1.166 Ohms at 20°C (68°F)\n   - If the resistance is out of specification, replace the fuel injector. Perform Repair Validation.\n   - If the resistance is within specification, go to Step 2b.\nb. Using a mechanical ear (stethoscope), listen for the fuel injector clicking.\n   - If the fuel injector is not clicking, replace the fuel injector. Perform Repair Validation.\n   - If the fuel injector is clicking, inspect for a vacuum leak. If none are found, go to Step 2c.\nc. No fault is present. Perform Repair Validation. If the DTC sets, go to Step 2.",
+                "RepairValidation": "1. Clear DTC(s) and Freeze Frame (FF) information.\n2. Perform the KOEO and Key ON Engine Running (KOER) tests or follow the On–Board Diagnostics (OBD2) drive cycle requirements for the fault area.\n3. An optional method to validate the repair would be to operate the vehicle within the conditions recorded in the FF data.\n4. Check for pending or stored DTC. If none is found, the repair is complete."
+            }
+        },
+        {
+            "ErrorCode": "P0301",
+            "ErrorCodeSystemType": 3,
+            "ErrorCodeSystemTypeText": "SRS",
+            "FixId": "e85f7372-8799-42d8-90ba-27c100ed9c8b",
+            "FixNameId": "d78d29af-a297-4ee6-882b-26ab3c1232e9",
+            "Name": "Replace Fuel Injector(s)",
+            "ProName": "Fuel Injector(s)",
+            "AdditionalInformation": "Test for compression and ignition concerns. Flow test fuel injectors.\nNOTE: COULD ALSO BE DUE TO ICING AND EXTREME COLD",
+            "LaborHours": 1.40,
+            "LaborRate": 146.58000,
+            "LaborCost": 205.21200,
+            "PartsCost": 70.86000,
+            "AdditionalCost": 25.00000,
+            "TotalCost": 301.07200,
+            "FixRating": 3,
+            "FrequencyCount": 1,
+            "FixParts": [
+                {
+                    "ACESPartTypeID": 6224,
+                    "Quantity": 1,
+                    "Name": "Fuel Injector",
+                    "MakesList": "AMERICAN GENERAL|BUICK|CADILLAC|CHEVROLET|GEO|GMC|HUMMER|OLDSMOBILE|PONTIAC|SAAB|SATURN",
+                    "PartNumber": "12613412",
+                    "Price": 70.86000,
+                    "CodemasterID": "1854",
+                    "FixPartOemInfos": []
+                }
+            ],
+            "RepairTipInfo": {
+                "FixName": "Replace Fuel Injector(s)",
+                "InitialInspection": "During your initial inspection, check for torn inlet boots, missing/broken vacuum tees, and disconnected wire harnesses. Check that Ignition Coil wire(s) fit tightly on Spark Plugs and coil(s) fit properly into the valve cover, cylinder head, and Spark Plug(s). Ensure Ignition Coil harness connector(s) properly fit into connector/holders to prevent issues. With the engine idling, you may spray a fine mist of water across the wires and coil, looking for arcing and, or RPM change. Refer to the Vehicle Emissions Warranty Manual for time and mileage coverage for the emissions-related fault(s). For additional information, refer to the Service Manual or applicable Technical Service Bulletin (TSB) “19-NA-219/19-NA-232 prior to continuing to diagnose this Diagnostic Trouble Code (DTC)”.",
+                "PossibleCause": "- Faulty Ignition Coils or Spark Plug\n- Faulty Fuel Injector",
+                "DiagnosticProcedure": "1. Inspect the Ignition Coil and Spark Plug\na. Turn the ignition to the OFF position. Disconnect the ignition coil connectors and turn the ignition to the Key ON Engine OFF (KOEO) position. Using a Digital Multimeter (DMM), measure the voltage between Pin 4 (Violet/Blue) and the body ground. Voltage should be the battery voltage.\n   - If the voltage is out of specification, repair the wiring between the ignition coils and fuse F44UA. Perform Repair Validation.\n   - If the voltage is within specification, go to Step 1b.\nb. Remove the ignition coil(s) from the cylinder(s) identified by the Diagnostic Trouble Code (DTC). Move the ignition coil to another cylinder. Perform Repair Validation.\n   - If a DTC is set for the cylinder where the ignition coil was moved, replace the ignition coil(s). Perform Repair Validation.\n   - If the same DTC is set, go to Step 1c.\nc. Remove the spark plug and inspect it. The spark gap should be 0.95–1.10 mm (0.037–0.043in). Perform a quick compression check to determine if the compression is the root cause. Then, follow the appropriate diagnostic procedure and repair as specified. If compression, spark plug, and gap are good, move the spark plug to another cylinder. Perform Repair Validation.\n   - If a DTC is set for the cylinder where the spark plug was moved, replace the spark plug. Perform Repair Validation.\n   - If the same DTC is set, go to Step 2.\n2. Inspect the Fuel Injector\na. Disconnect the fuel injector connector. Using a DMM, measure the fuel injector resistance. The resistance should be 0.954–1.166 Ohms at 68°F (20°C).\n   - If the resistance is out of specification, replace the fuel injector. Perform Repair Validation.\n   - If the resistance is within specification, go to Step 2b.\nb. Using a mechanical ear (stethoscope), listen for the fuel injector clicking.\n   - If the fuel injector is not clicking, replace the fuel injector. Perform Repair Validation.\n   - If the fuel injector is clicking, inspect for a vacuum leak. If none are found, go to Step 2c.\nc. No fault is present. Perform Repair Validation. If the DTC sets, go to Step 2.",
+                "RepairValidation": "1. Clear DTC(s) and Freeze Frame (FF) information.\n2. Perform the KOEO and Key ON Engine Running (KOER) tests or follow the On–Board Diagnostics (OBD2) drive cycle requirements for the fault area.\n3. An optional method to validate the repair would be to operate the vehicle within the conditions recorded in the FF data.\n4. Check for pending or stored DTC. If none is found, the repair is complete."
+            }
+        }
+    ],
+    "expected_VIN_1GNA": [
+        {
+            "ErrorCode": "B0017-05",
+            "ErrorCodeSystemType": 2,
+            "ErrorCodeSystemTypeText": "ABS",
+            "FixId": "d202d90a-8a6b-4b23-9a22-fecdebe00fca",
+            "FixNameId": "3c137d0b-e612-4300-b4c5-a22c9be9776e",
+            "Name": "Replace Airbag Module",
+            "ProName": "Airbag Module",
+            "AdditionalInformation": "SEE TSB ( Recall): # 01320A: Product Safety - Front Seat Side Impact Airbag Module and NHTSA Campaign Number: 15V666000",
+            "LaborHours": 1.50,
+            "LaborRate": 146.58000,
+            "LaborCost": 219.87000,
+            "PartsCost": 499.00000,
+            "AdditionalCost": 25.00000,
+            "TotalCost": 743.87000,
+            "FixRating": 4,
+            "FrequencyCount": 1,
+            "FixParts": [
+                {
+                    "ACESPartTypeID": 1508,
+                    "Quantity": 1,
+                    "Name": "Air Bag Module",
+                    "MakesList": "CHEVROLET|GMC",
+                    "PartNumber": "20827690",
+                    "Price": 499.00000,
+                    "CodemasterID": "934",
+                    "FixPartOemInfos": []
+                }
+            ],
+            "RepairTipInfo": null
+        },
+        {
+            "ErrorCode": "P0420",
+            "ErrorCodeSystemType": 0,
+            "ErrorCodeSystemTypeText": "OBDII",
+            "FixId": "52be19fc-a717-40e3-9777-c3f983400f47",
+            "FixNameId": "2a4398d4-2db7-4124-9e81-f7d2abd0e4d9",
+            "Name": "Replace Catalytic Converter(s)",
+            "ProName": "Catalytic Converter(s)",
+            "AdditionalInformation": "Repair any running concerns and/or exhaust leaks first.",
+            "LaborHours": 2.30,
+            "LaborRate": 146.58000,
+            "LaborCost": 337.13400,
+            "PartsCost": 958.32000,
+            "AdditionalCost": 25.00000,
+            "TotalCost": 1320.45400,
+            "FixRating": 3,
+            "FrequencyCount": 4,
+            "FixParts": [
+                {
+                    "ACESPartTypeID": 5808,
+                    "Quantity": 1,
+                    "Name": "Catalytic Converter",
+                    "MakesList": "CHEVROLET|GMC",
+                    "PartNumber": "20900543",
+                    "Price": 683.67000,
+                    "CodemasterID": "1740",
+                    "FixPartOemInfos": []
+                },
+                {
+                    "ACESPartTypeID": 5808,
+                    "Quantity": 1,
+                    "Name": "Catalytic Converter",
+                    "MakesList": "CHEVROLET|GMC",
+                    "PartNumber": "23128664",
+                    "Price": 274.65000,
+                    "CodemasterID": "1738",
+                    "FixPartOemInfos": []
+                }
+            ],
+            "RepairTipInfo": null
+        }
+    ]
+}

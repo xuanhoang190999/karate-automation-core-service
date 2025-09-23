@@ -1,0 +1,7 @@
+[
+  "classpath:resources/apis/dlc-locations/dlc-locations-by-vin.feature",
+  "classpath:resources/apis/dlc-locations/available-makes-by-years.feature",
+  "classpath:resources/apis/dlc-locations/available-years-by-makes.feature",
+  "classpath:resources/apis/dlc-locations/available-models-by-makes-and-years.feature",
+  "classpath:resources/apis/dlc-locations/get-infos-by-year-make-model.feature"
+]

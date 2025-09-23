@@ -1,0 +1,4 @@
+[
+    "classpath:resources/apis/wftc/wftc.feature",
+    "classpath:resources/apis/wftc/wftcs-fix-names.feature"
+]

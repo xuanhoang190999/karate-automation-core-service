@@ -1,0 +1,5 @@
+[
+    "classpath:resources/apis/vehicles/decode.feature",
+    "classpath:resources/apis/vehicles/available-ymmes.feature",
+    "classpath:resources/apis/vehicles/generate-vin-by-ymme.feature"
+]

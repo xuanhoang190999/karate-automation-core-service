@@ -1,0 +1,12 @@
+{
+  "expectedMakes_2009_2015": [
+    "Acura","Audi","BMW","Buick","Cadillac","Chevrolet","Chrysler","Dodge",
+    "Fiat","Ford","Freightliner","GMC","Honda","HUMMER","Hyundai","Infiniti",
+    "Jaguar","Jeep","Kia","Land Rover","Lexus","Lincoln","Lotus","Maserati",
+    "Maybach","Mazda","Mercedes-Benz","Mercury","MINI","Mitsubishi","Nissan",
+    "Pontiac","Porsche","Ram","Rolls-Royce","Saab","Saturn","Scion","Smart",
+    "Subaru","Suzuki","Tesla","Toyota","Volkswagen","Volvo"
+  ],
+  "expectedMakes_1995": ["Ford","Jaguar"],
+  "expectedMakes_2025": []
+}
