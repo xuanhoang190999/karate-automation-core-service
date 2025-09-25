@@ -1,7 +1,7 @@
-package run.dtc;
+package runs.vehicles;
 
 import com.intuit.karate.junit5.Karate;
-import utils.Helper;
+import app.shareds.utils.Helper;
 import java.util.List;
 
 class VehicleTest {

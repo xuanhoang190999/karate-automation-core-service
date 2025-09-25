@@ -1,4 +1,4 @@
-package utils;
+package app.shareds.utils;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -12,9 +12,9 @@ public class Helper {
         try {
             ObjectMapper mapper = new ObjectMapper();
             return mapper.readValue(
-                new File(path),
-                new TypeReference<List<String>>() {}
-            );
+                    new File(path),
+                    new TypeReference<List<String>>() {
+                    });
         } catch (IOException e) {
             throw new RuntimeException("Cannot read feature JSON: " + path, e);
         }

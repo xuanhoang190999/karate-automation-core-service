@@ -29,6 +29,10 @@ mvn -version
 
 ---
 
+# Cleans the project and Installs the built version/package
+```bash
+mvn clean install
+```
 
 # Run tests
 - Run specific test class:

@@ -1,7 +1,7 @@
-package runs.dlc;
+package runs.dlcLocations;
 
 import com.intuit.karate.junit5.Karate;
-import utils.Helper;
+import app.shareds.utils.Helper;
 import java.util.List;
 
 class DLCLocationTest {

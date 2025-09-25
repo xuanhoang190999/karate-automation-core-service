@@ -4,10 +4,9 @@ import com.intuit.karate.Results;
 import com.intuit.karate.Runner;
 import org.junit.jupiter.api.Test;
 
-import utils.Helper;
+import app.shareds.utils.Helper;
 import java.util.List;
 
-import java.util.List;
 import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -16,7 +15,8 @@ class RunAll {
     @Test
     void testAll() {
         List<String> dlcLocationFeatures = Helper.ReadFile("src/test/java/runs/dlc-locations/features.json");
-        List<String> dtcLibraryErrorCodeFeatures = Helper.ReadFile("src/test/java/runs/dtc-library-error-code/features.json");
+        List<String> dtcLibraryErrorCodeFeatures = Helper
+                .ReadFile("src/test/java/runs/dtc-library-error-code/features.json");
         List<String> fixFeatures = Helper.ReadFile("src/test/java/runs/fixes/features.json");
         List<String> recallFeatures = Helper.ReadFile("src/test/java/runs/recalls/features.json");
         List<String> tsbsFeatures = Helper.ReadFile("src/test/java/runs/tsbs/features.json");
