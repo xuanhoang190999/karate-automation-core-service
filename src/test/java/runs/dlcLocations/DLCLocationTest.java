@@ -8,7 +8,7 @@ class DLCLocationTest {
 
     @Karate.Test
     Karate testDlcLocations() {
-        List<String> features = Helper.ReadFile("src/test/java/runs/dlc-locations/features.json");
+        List<String> features = Helper.ReadFile("src/test/java/runs/dlcLocations/features.json");
         return Karate.run(features.toArray(new String[0])).relativeTo(getClass());
     }
 }

@@ -101,6 +101,7 @@ Scenario Outline: Verify Vehicle info & TSBs VIN: '<VIN>'
     # STEP 1: Relax TSB count match due to data differences
     # * match apiTsbNormalized contains only dbTsbNormalized
     
+    # STEP 2: Custom comparison function to get detailed mismatch info
     * def compareEach =
     """
     function(apiArr, dbArr){
