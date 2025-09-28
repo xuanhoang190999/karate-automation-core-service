@@ -5,32 +5,27 @@ Feature: DLC Locations: Get info by VIN
     * header Content-Type = 'application/json'
     * header Accept = 'application/json'
     * header api-key = 'EJPLzfSyCmdDSUzhG9LJwt3MCgTrAN'
+    * def apiKeyDefault = 'EJPLzfSyCmdDSUzhG9LJwt3MCgTrAN'
 
-  Scenario Outline: Check invalid VIN and Language VIN: '<VIN>' and Language: '<LANG>'
-    And request { Language: '#(LANG)', Vin: '#(VIN)' }
+  Scenario Outline: <title>
+    And request { Language: '#(lang)', Vin: '#(vin)' }
+    * def keys = Object.keys(__row)
+    # * print 'keys =', keys
+    * def key = keys.includes('apiKey') ? __row.apiKey : apiKeyDefault
+    * header api-key = key
     When method post
-    Then status <Status>
+    Then status <status>
     And match response.Ok == false
-    And match response.Message == <Message>
-    And match response.Data == ERRORS
+    # And match response.Message == '#(message)'
+    And match response.Data == __row.data
+    And match response.Message == '<message>'
+    * print 'Data: ', __row.data
+    And match response.Data == __row.data
 
     Examples:
-      | LANG!   | VIN!                  | Status | Message                 | ERRORS!                                                                                                  |
-      | null    | null                  | 400    | 'Invalid data provided' | [{"Field":"Vin","Error":"The Vin field is required."},{"Field":"Language","Error":"The Language field is required."}] |
-      | null    | 'JM1DRACB*N1******'   | 400    | 'Invalid data provided' | [{"Field":"Language","Error":"The Language field is required."}]                                     |
-      | 'en-us' | null                  | 400    | 'Invalid data provided' | [{"Field":"Vin","Error":"The Vin field is required."}]                                               |
-      | 'en-us' | 'JM1DRACB*N1******__'   | 200    | 'The VIN supplied is invalid. The following VINs were tried and failed: JM1DRACB*N1******__' | null |
+      | read('classpath:resources/data/dlc-locations/test-cases/dlc-locations.json') |
 
-  Scenario: Check Authentication
-    And header api-key = ''
-    And request { Language: 'en-us', Vin: 'JM1DRACB*N1******' }
-    When method post
-    Then status 401
-    And match response.Ok == false
-    And match response.Message == "Invalid Api Key"
-    And match response.Data == null
-
-  Scenario: Check Year/Make/Model/LocationNumber/Access/Comments and Image URLs is null with VIN JM1DRACB*N1******
+  Scenario: Verify DLC Location Info and verify ImageFileName is null by VIN: JM1DRACB*N1******
     And request
       """
       {
@@ -47,11 +42,11 @@ Feature: DLC Locations: Get info by VIN
     And match response.Data[0].LocationNumber == 2
     And match response.Data[0].Access == 'uncovered'
     And match response.Data[0].Comments == 'Driver Side - Under Lower Left Side of Dashboard'
-    And match response.Data[0].ImageFileName == '#? _ == null || _ == ""'
-    And match response.Data[0].ImageFileUrl == '#? _ == null || _ == ""'
-    And match response.Data[0].ImageFileUrlSmall == '#? _ == null || _ == ""'
+    And match response.Data[0].ImageFileName == '#[null, ""]'
+    And match response.Data[0].ImageFileUrl == '#[null, ""]'
+    And match response.Data[0].ImageFileUrlSmall == '#[null, ""]'
 
-  Scenario: Check Year/Make/Model/LocationNumber/Access/Comments and Image URLs can not null with VIN 4T4BF1FK1FR513668
+  Scenario: Check DLC Location Info and Image URLs cannot null by VIN: 4T4BF1FK1FR513668
     And request
       """
       {
@@ -72,7 +67,7 @@ Feature: DLC Locations: Get info by VIN
     And match response.Data[0].ImageFileUrl != null
     And match response.Data[0].ImageFileUrlSmall != null
 
-  Scenario: Check Year/Make/Model/LocationNumber/Access/Comments and Image URLs can not null with VIN 2CNDL73F976028975
+  Scenario: Check DLC Location Info and Image URLs can not null by VIN: 2CNDL73F976028975
     And request
       """
       {
@@ -92,3 +87,24 @@ Feature: DLC Locations: Get info by VIN
     And match response.Data[0].ImageFileName != null
     And match response.Data[0].ImageFileUrl != null
     And match response.Data[0].ImageFileUrlSmall != null
+
+  Scenario: Check DLC Location Info and Image URLs can not null with VIN: JM1DRACB*N1****** and es-mx Language
+    And request
+      """
+      {
+        "Language": "es-mx",
+        "Vin": "JM1DRACB*N1******"
+      }
+      """
+    When method post
+    Then status 200
+    And match response.Ok == true
+    And match response.Data[0].Year == '2022'
+    And match response.Data[0].Make == 'MAZDA'
+    And match response.Data[0].Model == 'MX-30'
+    And match response.Data[0].LocationNumber == 2
+    And match response.Data[0].Access == 'descubierto'
+    And match response.Data[0].Comments == 'Del lado del conductor - En la parte inferior izquierda del panel'
+    And match response.Data[0].ImageFileName == '#[null, ""]'
+    And match response.Data[0].ImageFileUrl == '#[null, ""]'
+    And match response.Data[0].ImageFileUrlSmall == '#[null, ""]'

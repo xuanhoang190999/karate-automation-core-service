@@ -31,7 +31,7 @@ Background:
         }
         """
 
-        * def dbConvertTsbInfoFunc =
+    * def dbConvertTsbInfoFunc =
         """
         function(arr){
             return (arr || []).map(x => ({ 

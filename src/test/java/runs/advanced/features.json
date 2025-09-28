@@ -1,0 +1,6 @@
+[
+    "classpath:resources/apis/advanced/vehicles/decode-excel.feature",
+    "classpath:resources/apis/advanced/vehicles/extra-info.feature",
+    "classpath:resources/apis/advanced/vehicles/decode-verify-tsb.feature",
+    "classpath:resources/apis/advanced/sm/schedule-maintenances.feature"
+]

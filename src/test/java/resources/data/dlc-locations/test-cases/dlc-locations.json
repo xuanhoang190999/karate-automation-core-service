@@ -1,0 +1,50 @@
+[
+  {
+    "lang": null,
+    "vin": null,
+    "title": "Invalid Language and VIN",
+    "status": 400,
+    "message": "Invalid data provided",
+    "data": [
+      { "Field": "Vin", "Error": "The Vin field is required." },
+      { "Field": "Language", "Error": "The Language field is required." }
+    ]
+  },
+  {
+    "lang": null,
+    "vin": "JM1DRACB*N1******",
+    "title": "Invalid Language",
+    "status": 400,
+    "message": "Invalid data provided",
+    "data": [
+      { "Field": "Language", "Error": "The Language field is required." }
+    ]
+  },
+  {
+    "lang": "en-us",
+    "vin": null,
+    "title": "Invalid VIN",
+    "status": 400,
+    "message": "Invalid data provided",
+    "data": [
+      { "Field": "Vin", "Error": "The Vin field is required." }
+    ]
+  },
+  {
+    "lang": "en-us",
+    "vin": "JM1DRACB*N1******__",
+    "title": "Invalid VIN Format",
+    "status": 200,
+    "message": "The VIN supplied is invalid. The following VINs were tried and failed: JM1DRACB*N1******__",
+    "data": null
+  },
+  {
+    "lang": "en-us",
+    "vin": "JM1DRACB*N1******",
+    "apiKey": "abc123",
+    "title": "Invalid Api Key (Authentication Check)",
+    "status": 401,
+    "message": "Invalid Api Key",
+    "data": null
+  }
+]

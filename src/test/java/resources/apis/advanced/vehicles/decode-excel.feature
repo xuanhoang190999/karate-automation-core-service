@@ -1,4 +1,4 @@
-Feature: Decode VIN and compare with CSV data
+Feature: Vehicle: Info By VIN
 
   Background:
     * url 'https://dev-core-service.innova.com/api/vehicles/decode'
@@ -6,6 +6,7 @@ Feature: Decode VIN and compare with CSV data
     * header Accept = 'application/json'
     * header api-key = 'EJPLzfSyCmdDSUzhG9LJwt3MCgTrAN'
     # * def records = read('classpath:resources/data/excels/innova/Vehicle_Info_Test_5_Row.csv')
+    * def isNullOrEqual = function(x, expected){ return x == null || x == expected }
 
   Scenario Outline: Verify Vehicle info matches expected data VIN: '<VIN>'
     And request { Vin: '<VIN>' }
@@ -20,15 +21,13 @@ Feature: Decode VIN and compare with CSV data
     And match response.Data.AAIA == '<AAIA>'
     And match response.Data.VehicleClass == '<VehicleClass>'
     And match response.Data.Transmission == '<Transmission>'
-    And match response.Data.FuelMPGCombined == '#? _ == null || _ == "<FuelMPGCombined>"'
-    And match response.Data.FuelMPGCity == '#? _ == null || _ == "<FuelMPGCity>"'
-    And match response.Data.FuelMPGHighway == '#? _ == null || _ == "<FuelMPGHighway>"'
+    And match isNullOrEqual(response.Data.FuelMPGCombined, <FuelMPGCombined>) == true
+    And match isNullOrEqual(response.Data.FuelMPGCity, <FuelMPGCity>) == true
+    And match isNullOrEqual(response.Data.FuelMPGHighway, <FuelMPGHighway>) == true
     And match response.Data.ModelImageFileUrl contains '<ModelImageName>'
-    And match response.Data.ACESBaseVehicleID == '#? _ == null || _ == <ACESBaseVehicleID>'
-    And match response.Data.ACESEngineBaseID == '#? _ == null || _ == <ACESEngineBaseID>'
-    And match response.Data.ACESSubModelID == '#? _ == null || _ == <ACESSubModelID>'
-    And match response.Data.VehicleClass == '<VehicleClass>'
-    And match response.Data.VehicleClass == '<VehicleClass>'
+    And match isNullOrEqual(response.Data.ACESBaseVehicleID, <ACESBaseVehicleID>) == true
+    And match isNullOrEqual(response.Data.ACESEngineBaseID, <ACESEngineBaseID>) == true
+    And match isNullOrEqual(response.Data.ACESSubModelID, <ACESSubModelID>) == true
     And match response.Data.PolkVehicleYMMEId.toLowerCase() == '<PolkVehicleYMMEId>'.toLowerCase()
 
     Examples:

@@ -1,4 +1,4 @@
-Feature: Print TSBs from DB for a vehicle
+Feature: Vehicle: from DB for a vehicle
 
 Background:
     * def PolkVehicleDA = Java.type('app.dataAccess.PolkVehicleDA')
