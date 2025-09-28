@@ -50,4 +50,4 @@ mvn clean test
 target/surefire-reports/karate-summary.html
 ```
 
-![alt text](Screenshot.png)
+![alt text](image.png)
