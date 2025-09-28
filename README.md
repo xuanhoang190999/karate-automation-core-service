@@ -49,3 +49,5 @@ mvn clean test
 ```bash
 target/surefire-reports/karate-summary.html
 ```
+
+![alt text](<Screenshot 2025-09-29 004954.png>)
