@@ -42,9 +42,9 @@ Feature: DLC Locations: Get info by VIN
     And match response.Data[0].LocationNumber == 2
     And match response.Data[0].Access == 'uncovered'
     And match response.Data[0].Comments == 'Driver Side - Under Lower Left Side of Dashboard'
-    And match response.Data[0].ImageFileName == '#[null, ""]'
-    And match response.Data[0].ImageFileUrl == '#[null, ""]'
-    And match response.Data[0].ImageFileUrlSmall == '#[null, ""]'
+    And match response.Data[0].ImageFileName == '#? _ == null || _ == ""'
+    And match response.Data[0].ImageFileUrl == '#? _ == null || _ == ""'
+    And match response.Data[0].ImageFileUrlSmall == '#? _ == null || _ == ""'
 
   Scenario: Check DLC Location Info and Image URLs cannot null by VIN: 4T4BF1FK1FR513668
     And request
@@ -105,6 +105,6 @@ Feature: DLC Locations: Get info by VIN
     And match response.Data[0].LocationNumber == 2
     And match response.Data[0].Access == 'descubierto'
     And match response.Data[0].Comments == 'Del lado del conductor - En la parte inferior izquierda del panel'
-    And match response.Data[0].ImageFileName == '#[null, ""]'
-    And match response.Data[0].ImageFileUrl == '#[null, ""]'
-    And match response.Data[0].ImageFileUrlSmall == '#[null, ""]'
+    And match response.Data[0].ImageFileName == '#? _ == null || _ == ""'
+    And match response.Data[0].ImageFileUrl == '#? _ == null || _ == ""'
+    And match response.Data[0].ImageFileUrlSmall == '#? _ == null || _ == ""'
